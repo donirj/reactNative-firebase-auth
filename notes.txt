@@ -1,0 +1,6 @@
+No se evidencia un manejo de estados, ni utilización de redux.
+No es posible probar funcionalmente el trabajo del candidato. 
+No utiliza hooks (useEffect, useCallback, useMemo, etc).
+No implemento ninguna arquitectura, patroneado o manejo de carpetas.
+Dentro del código se pueden ver código comentado, por lo cual, se puede asumir el uso de malas prácticas.
+No se observan test unitarios, aunque la prueba no los exige siempre es bueno hacer al menos un test para darse cuenta que sabe manejar esta práctica de desarrollo.

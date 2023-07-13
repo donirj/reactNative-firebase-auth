@@ -2,6 +2,8 @@ import React from 'react'
 import { KeyboardAvoidingView, StyleSheet, Text, View, TextInput, TouchableOpacity, Button, ActivityIndicator, Pressable, SafeAreaView } from 'react-native'
 import { styles } from "./styles";
 import { NavigationProp } from '@react-navigation/native';
+import { LinearGradient } from 'expo-linear-gradient';
+
 
 interface RouterProps {
   navigation: NavigationProp<any, any>

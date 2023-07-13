@@ -4,6 +4,8 @@ import { styles } from "./styles";
 import { FIREBASE_AUTH } from '../../services/FirebaseConfig';
 import { signInWithEmailAndPassword, createUserWithEmailAndPassword } from 'firebase/auth';
 import Swal from 'sweetalert2';
+import { LinearGradient } from 'expo-linear-gradient';
+
 
 const Login = () => {
 const [email, setEmail] = useState('')
@@ -41,11 +43,13 @@ const auth = FIREBASE_AUTH;
 
   return (
 
+    <>
     <KeyboardAvoidingView
     style={styles.container}
     behavior={"height"}
 
     >
+
         <View style={styles.inputContainer}>
 
             <TextInput 
@@ -80,6 +84,7 @@ const auth = FIREBASE_AUTH;
             )}
         </View>
     </KeyboardAvoidingView>
+    </>
   )
 }
 

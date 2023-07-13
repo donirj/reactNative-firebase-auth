@@ -4,20 +4,23 @@ export const styles = StyleSheet.create({
     container: {
         flex: 1,
         justifyContent: 'center',
-        alignItems: 'center'
+        alignItems: 'center',
+        
     },
     inputContainer: {
         width: '80%'
     },
     input: {
-        backgroundColor: 'white',
+        borderWidth: 1,
+        padding: 10,
+        borderColor: 'gray',
         paddingHorizontal: 15,
         paddingVertical: 10,
         borderRadius: 10,
         marginTop: 5
     },
     button: {
-        backgroundColor: '#0782f9',
+        backgroundColor: '#303030',
         width: '100%',
         padding: 15,
         borderRadius: 10
@@ -36,11 +39,11 @@ export const styles = StyleSheet.create({
     buttonOutline: {
         backgroundColor: 'white',
         marginTop: 5,
-        borderColor: '#0782f9',
+        borderColor: '#303030',
         borderWidth: 2
     },
     buttonOutlineText: {
-        color: '#0782f9',
+        color: '#303030',
         fontWeight: '700',
         fontSize: 16
     }
